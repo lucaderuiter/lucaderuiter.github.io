@@ -81,6 +81,7 @@ svg#letters > rect#_v-blok_ {
     background-color: white; 
 }
 
+/*https://css-tricks.com/snippets/css/shake-css-keyframe-animation/*/
 .random {
   animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
   transform: translate3d(0, 0, 0);
@@ -188,7 +189,7 @@ svg#letters > rect#_v-blok_ {
 }
 
 #_v-begin_:hover, #_o-begin_:hover, #_r-begin_:hover, #_m-begin_:hover, #_m-midden_:hover, #_m-eind_:hover, #_o-eind_:hover, #_v-eind_:hover, #_g-begin_:hover, #_g-eind_:hover, #_e-zijkant_:hover, #_e-zijkant2_:hover, #_v-begin2_:hover, #_v-eind2_:hover, #_r-onder2_:hover, #_s-midden_:hover {
-    animation: kleuren 1s ease-in-out infinite;
+    animation: kleuren 1s ease-in-out 3;
 }
 
 @keyframes kleuren {
@@ -208,7 +209,7 @@ svg#letters > rect#_v-blok_ {
 
 
 #_o-onder_:hover, #_o-boven_:hover, #_r-boven_:hover, #_m-boven_:hover, #_m-boven2_:hover, #_g-boven_:hover, #_g-midden_:hover, #_g-onder_:hover, #_e-boven_:hover, #_e-midden_:hover, #_e-onder_:hover, #_e-boven2_:hover, #_e-onder2_:hover, #_e-onder2:hover, #_r-boven2_:hover, #_s-boven_:hover, #_S-onder_:hover {
-    animation: beweeg3 1s ease-in-out infinite;
+    animation: beweeg3 1s ease-in-out 2;
 }
 
 @keyframes beweeg3 {
@@ -230,7 +231,7 @@ svg#letters > rect#_v-blok_ {
 }
 
 #_v-blok_:hover, #_v-blokk_:hover, #_e-blok_:hover, #_v-blok2_:hover, #_v-blokk2_:hover, #_e-blok2_:hover, #_s-blokboven_:hover, #_s-blokonder_:hover {
-    animation: dichtbij 4s ease-in-out infinite;
+    animation: dichtbij 4s ease-in-out 1;
     transition: transform;
 }
 
