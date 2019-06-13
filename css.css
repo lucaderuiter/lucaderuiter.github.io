@@ -10,7 +10,7 @@ html { font-size:90%; }
 .mobile .main, 
 .mobile .footer, 
 .mobile #someOtherElement {
-  font-family: "LCD solid";
+  font-family: "Courier New", monospace;
 }
 
 
