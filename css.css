@@ -5,6 +5,13 @@ html { font-size:90%; }
 @media (min-width:960px) { body {font-size:1.3rem;} } 
 @media (min-width:1100px) { body {font-size:1.7rem;} }
 
+.mobile .body,
+.mobile .header,
+.mobile .main, 
+.mobile .footer, 
+.mobile #someOtherElement {
+  font-family: "LCD solid";
+}
 
 
 .regel1 {
